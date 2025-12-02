@@ -1,4 +1,5 @@
 import { usePeers } from "../../stores";
+import { nicknameToColor } from "../../utils/colors";
 
 export function Sidebar() {
 	const peers = usePeers();
@@ -8,11 +9,7 @@ export function Sidebar() {
 			<scrollbox style={{ flexGrow: 1 }}>
 				{peers.map((peer) => (
 					<box key={peer.nodeId} marginBottom={1}>
-						<text
-							fg={
-								peer.isSelf ? "#ff69b4" : peer.connected ? "#ffffff" : "#666666"
-							}
-						>
+						<text fg={peer.connected ? nicknameToColor(peer.nickname) : "#666666"}>
 							{peer.connected ? "*" : "o"} {peer.nickname}
 							{peer.isSelf ? " (you)" : ""}
 						</text>
