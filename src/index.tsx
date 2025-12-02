@@ -32,6 +32,15 @@ cli
     (async () => {
       for await (const event of subscription) {
         switch (event.type) {
+          case "message":
+            if (event.message.payload.case === "chat") {
+              const chatMessage = event.message.payload.value;
+              manager.addToHistory(chatMessage);
+              console.log(
+                `[${chatMessage.nickname}]: ${chatMessage.text}`,
+              );
+            }
+            break;
           case "peer-joined":
             console.log(
               `Peer joined: ${event.peer.nickname} (${event.peer.nodeId.slice(0, 8)}...)`,
