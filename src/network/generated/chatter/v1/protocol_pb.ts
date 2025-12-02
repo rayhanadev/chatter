@@ -10,10 +10,10 @@ import { fileDesc, messageDesc } from "@bufbuild/protobuf/codegenv2";
  * Describes the file chatter/v1/protocol.proto.
  */
 export const file_chatter_v1_protocol: GenFile =
-  /*@__PURE__*/
-  fileDesc(
-    "ChljaGF0dGVyL3YxL3Byb3RvY29sLnByb3RvEgpjaGF0dGVyLnYxIikKBFBlZXISDwoHbm9kZV9pZBgBIAEoCRIQCghuaWNrbmFtZRgCIAEoCSJcCgtDaGF0TWVzc2FnZRIKCgJpZBgBIAEoCRIOCgZzZW5kZXIYAiABKAkSEAoIbmlja25hbWUYAyABKAkSDAoEdGV4dBgEIAEoCRIRCgl0aW1lc3RhbXAYBSABKAMiMAoLSm9pbk1lc3NhZ2USDwoHbm9kZV9pZBgBIAEoCRIQCghuaWNrbmFtZRgCIAEoCSIfCgxMZWF2ZU1lc3NhZ2USDwoHbm9kZV9pZBgBIAEoCSIyCg9QZWVyTGlzdE1lc3NhZ2USHwoFcGVlcnMYASADKAsyEC5jaGF0dGVyLnYxLlBlZXIiFAoSU3luY1JlcXVlc3RNZXNzYWdlIl0KD1N5bmNEYXRhTWVzc2FnZRIfCgVwZWVycxgBIAMoCzIQLmNoYXR0ZXIudjEuUGVlchIpCghtZXNzYWdlcxgCIAMoCzIXLmNoYXR0ZXIudjEuQ2hhdE1lc3NhZ2UiNAoPTmlja25hbWVNZXNzYWdlEg8KB25vZGVfaWQYASABKAkSEAoIbmlja25hbWUYAiABKAki5gIKD1Byb3RvY29sTWVzc2FnZRInCgRjaGF0GAEgASgLMhcuY2hhdHRlci52MS5DaGF0TWVzc2FnZUgAEicKBGpvaW4YAiABKAsyFy5jaGF0dGVyLnYxLkpvaW5NZXNzYWdlSAASKQoFbGVhdmUYAyABKAsyGC5jaGF0dGVyLnYxLkxlYXZlTWVzc2FnZUgAEjAKCXBlZXJfbGlzdBgEIAEoCzIbLmNoYXR0ZXIudjEuUGVlckxpc3RNZXNzYWdlSAASNgoMc3luY19yZXF1ZXN0GAUgASgLMh4uY2hhdHRlci52MS5TeW5jUmVxdWVzdE1lc3NhZ2VIABIwCglzeW5jX2RhdGEYBiABKAsyGy5jaGF0dGVyLnYxLlN5bmNEYXRhTWVzc2FnZUgAEi8KCG5pY2tuYW1lGAcgASgLMhsuY2hhdHRlci52MS5OaWNrbmFtZU1lc3NhZ2VIAEIJCgdwYXlsb2FkYgZwcm90bzM",
-  );
+	/*@__PURE__*/
+	fileDesc(
+		"ChljaGF0dGVyL3YxL3Byb3RvY29sLnByb3RvEgpjaGF0dGVyLnYxIikKBFBlZXISDwoHbm9kZV9pZBgBIAEoCRIQCghuaWNrbmFtZRgCIAEoCSJcCgtDaGF0TWVzc2FnZRIKCgJpZBgBIAEoCRIOCgZzZW5kZXIYAiABKAkSEAoIbmlja25hbWUYAyABKAkSDAoEdGV4dBgEIAEoCRIRCgl0aW1lc3RhbXAYBSABKAMiMAoLSm9pbk1lc3NhZ2USDwoHbm9kZV9pZBgBIAEoCRIQCghuaWNrbmFtZRgCIAEoCSIfCgxMZWF2ZU1lc3NhZ2USDwoHbm9kZV9pZBgBIAEoCSIyCg9QZWVyTGlzdE1lc3NhZ2USHwoFcGVlcnMYASADKAsyEC5jaGF0dGVyLnYxLlBlZXIiFAoSU3luY1JlcXVlc3RNZXNzYWdlIl0KD1N5bmNEYXRhTWVzc2FnZRIfCgVwZWVycxgBIAMoCzIQLmNoYXR0ZXIudjEuUGVlchIpCghtZXNzYWdlcxgCIAMoCzIXLmNoYXR0ZXIudjEuQ2hhdE1lc3NhZ2UiNAoPTmlja25hbWVNZXNzYWdlEg8KB25vZGVfaWQYASABKAkSEAoIbmlja25hbWUYAiABKAkiNQoQTmV3TGVhZGVyTWVzc2FnZRIPCgdub2RlX2lkGAEgASgJEhAKCG5pY2tuYW1lGAIgASgJIpoDCg9Qcm90b2NvbE1lc3NhZ2USJwoEY2hhdBgBIAEoCzIXLmNoYXR0ZXIudjEuQ2hhdE1lc3NhZ2VIABInCgRqb2luGAIgASgLMhcuY2hhdHRlci52MS5Kb2luTWVzc2FnZUgAEikKBWxlYXZlGAMgASgLMhguY2hhdHRlci52MS5MZWF2ZU1lc3NhZ2VIABIwCglwZWVyX2xpc3QYBCABKAsyGy5jaGF0dGVyLnYxLlBlZXJMaXN0TWVzc2FnZUgAEjYKDHN5bmNfcmVxdWVzdBgFIAEoCzIeLmNoYXR0ZXIudjEuU3luY1JlcXVlc3RNZXNzYWdlSAASMAoJc3luY19kYXRhGAYgASgLMhsuY2hhdHRlci52MS5TeW5jRGF0YU1lc3NhZ2VIABIvCghuaWNrbmFtZRgHIAEoCzIbLmNoYXR0ZXIudjEuTmlja25hbWVNZXNzYWdlSAASMgoKbmV3X2xlYWRlchgIIAEoCzIcLmNoYXR0ZXIudjEuTmV3TGVhZGVyTWVzc2FnZUgAQgkKB3BheWxvYWRiBnByb3RvMw",
+	);
 
 /**
  * Peer information shared across the network
@@ -21,15 +21,15 @@ export const file_chatter_v1_protocol: GenFile =
  * @generated from message chatter.v1.Peer
  */
 export type Peer = Message<"chatter.v1.Peer"> & {
-  /**
-   * @generated from field: string node_id = 1;
-   */
-  nodeId: string;
+	/**
+	 * @generated from field: string node_id = 1;
+	 */
+	nodeId: string;
 
-  /**
-   * @generated from field: string nickname = 2;
-   */
-  nickname: string;
+	/**
+	 * @generated from field: string nickname = 2;
+	 */
+	nickname: string;
 };
 
 /**
@@ -37,8 +37,8 @@ export type Peer = Message<"chatter.v1.Peer"> & {
  * Use `create(PeerSchema)` to create a new message.
  */
 export const PeerSchema: GenMessage<Peer> =
-  /*@__PURE__*/
-  messageDesc(file_chatter_v1_protocol, 0);
+	/*@__PURE__*/
+	messageDesc(file_chatter_v1_protocol, 0);
 
 /**
  * Chat message sent between peers
@@ -46,30 +46,30 @@ export const PeerSchema: GenMessage<Peer> =
  * @generated from message chatter.v1.ChatMessage
  */
 export type ChatMessage = Message<"chatter.v1.ChatMessage"> & {
-  /**
-   * @generated from field: string id = 1;
-   */
-  id: string;
+	/**
+	 * @generated from field: string id = 1;
+	 */
+	id: string;
 
-  /**
-   * @generated from field: string sender = 2;
-   */
-  sender: string;
+	/**
+	 * @generated from field: string sender = 2;
+	 */
+	sender: string;
 
-  /**
-   * @generated from field: string nickname = 3;
-   */
-  nickname: string;
+	/**
+	 * @generated from field: string nickname = 3;
+	 */
+	nickname: string;
 
-  /**
-   * @generated from field: string text = 4;
-   */
-  text: string;
+	/**
+	 * @generated from field: string text = 4;
+	 */
+	text: string;
 
-  /**
-   * @generated from field: int64 timestamp = 5;
-   */
-  timestamp: bigint;
+	/**
+	 * @generated from field: int64 timestamp = 5;
+	 */
+	timestamp: bigint;
 };
 
 /**
@@ -77,8 +77,8 @@ export type ChatMessage = Message<"chatter.v1.ChatMessage"> & {
  * Use `create(ChatMessageSchema)` to create a new message.
  */
 export const ChatMessageSchema: GenMessage<ChatMessage> =
-  /*@__PURE__*/
-  messageDesc(file_chatter_v1_protocol, 1);
+	/*@__PURE__*/
+	messageDesc(file_chatter_v1_protocol, 1);
 
 /**
  * Sent when a peer joins the network
@@ -86,15 +86,15 @@ export const ChatMessageSchema: GenMessage<ChatMessage> =
  * @generated from message chatter.v1.JoinMessage
  */
 export type JoinMessage = Message<"chatter.v1.JoinMessage"> & {
-  /**
-   * @generated from field: string node_id = 1;
-   */
-  nodeId: string;
+	/**
+	 * @generated from field: string node_id = 1;
+	 */
+	nodeId: string;
 
-  /**
-   * @generated from field: string nickname = 2;
-   */
-  nickname: string;
+	/**
+	 * @generated from field: string nickname = 2;
+	 */
+	nickname: string;
 };
 
 /**
@@ -102,8 +102,8 @@ export type JoinMessage = Message<"chatter.v1.JoinMessage"> & {
  * Use `create(JoinMessageSchema)` to create a new message.
  */
 export const JoinMessageSchema: GenMessage<JoinMessage> =
-  /*@__PURE__*/
-  messageDesc(file_chatter_v1_protocol, 2);
+	/*@__PURE__*/
+	messageDesc(file_chatter_v1_protocol, 2);
 
 /**
  * Sent when a peer leaves the network
@@ -111,10 +111,10 @@ export const JoinMessageSchema: GenMessage<JoinMessage> =
  * @generated from message chatter.v1.LeaveMessage
  */
 export type LeaveMessage = Message<"chatter.v1.LeaveMessage"> & {
-  /**
-   * @generated from field: string node_id = 1;
-   */
-  nodeId: string;
+	/**
+	 * @generated from field: string node_id = 1;
+	 */
+	nodeId: string;
 };
 
 /**
@@ -122,8 +122,8 @@ export type LeaveMessage = Message<"chatter.v1.LeaveMessage"> & {
  * Use `create(LeaveMessageSchema)` to create a new message.
  */
 export const LeaveMessageSchema: GenMessage<LeaveMessage> =
-  /*@__PURE__*/
-  messageDesc(file_chatter_v1_protocol, 3);
+	/*@__PURE__*/
+	messageDesc(file_chatter_v1_protocol, 3);
 
 /**
  * Sent to share the current list of peers
@@ -131,10 +131,10 @@ export const LeaveMessageSchema: GenMessage<LeaveMessage> =
  * @generated from message chatter.v1.PeerListMessage
  */
 export type PeerListMessage = Message<"chatter.v1.PeerListMessage"> & {
-  /**
-   * @generated from field: repeated chatter.v1.Peer peers = 1;
-   */
-  peers: Peer[];
+	/**
+	 * @generated from field: repeated chatter.v1.Peer peers = 1;
+	 */
+	peers: Peer[];
 };
 
 /**
@@ -142,8 +142,8 @@ export type PeerListMessage = Message<"chatter.v1.PeerListMessage"> & {
  * Use `create(PeerListMessageSchema)` to create a new message.
  */
 export const PeerListMessageSchema: GenMessage<PeerListMessage> =
-  /*@__PURE__*/
-  messageDesc(file_chatter_v1_protocol, 4);
+	/*@__PURE__*/
+	messageDesc(file_chatter_v1_protocol, 4);
 
 /**
  * Sent to request synchronization data from a peer
@@ -157,8 +157,8 @@ export type SyncRequestMessage = Message<"chatter.v1.SyncRequestMessage"> & {};
  * Use `create(SyncRequestMessageSchema)` to create a new message.
  */
 export const SyncRequestMessageSchema: GenMessage<SyncRequestMessage> =
-  /*@__PURE__*/
-  messageDesc(file_chatter_v1_protocol, 5);
+	/*@__PURE__*/
+	messageDesc(file_chatter_v1_protocol, 5);
 
 /**
  * Sent in response to a sync request with peer list and message history
@@ -166,15 +166,15 @@ export const SyncRequestMessageSchema: GenMessage<SyncRequestMessage> =
  * @generated from message chatter.v1.SyncDataMessage
  */
 export type SyncDataMessage = Message<"chatter.v1.SyncDataMessage"> & {
-  /**
-   * @generated from field: repeated chatter.v1.Peer peers = 1;
-   */
-  peers: Peer[];
+	/**
+	 * @generated from field: repeated chatter.v1.Peer peers = 1;
+	 */
+	peers: Peer[];
 
-  /**
-   * @generated from field: repeated chatter.v1.ChatMessage messages = 2;
-   */
-  messages: ChatMessage[];
+	/**
+	 * @generated from field: repeated chatter.v1.ChatMessage messages = 2;
+	 */
+	messages: ChatMessage[];
 };
 
 /**
@@ -182,8 +182,8 @@ export type SyncDataMessage = Message<"chatter.v1.SyncDataMessage"> & {
  * Use `create(SyncDataMessageSchema)` to create a new message.
  */
 export const SyncDataMessageSchema: GenMessage<SyncDataMessage> =
-  /*@__PURE__*/
-  messageDesc(file_chatter_v1_protocol, 6);
+	/*@__PURE__*/
+	messageDesc(file_chatter_v1_protocol, 6);
 
 /**
  * Sent when a peer changes their nickname
@@ -191,15 +191,15 @@ export const SyncDataMessageSchema: GenMessage<SyncDataMessage> =
  * @generated from message chatter.v1.NicknameMessage
  */
 export type NicknameMessage = Message<"chatter.v1.NicknameMessage"> & {
-  /**
-   * @generated from field: string node_id = 1;
-   */
-  nodeId: string;
+	/**
+	 * @generated from field: string node_id = 1;
+	 */
+	nodeId: string;
 
-  /**
-   * @generated from field: string nickname = 2;
-   */
-  nickname: string;
+	/**
+	 * @generated from field: string nickname = 2;
+	 */
+	nickname: string;
 };
 
 /**
@@ -207,8 +207,37 @@ export type NicknameMessage = Message<"chatter.v1.NicknameMessage"> & {
  * Use `create(NicknameMessageSchema)` to create a new message.
  */
 export const NicknameMessageSchema: GenMessage<NicknameMessage> =
-  /*@__PURE__*/
-  messageDesc(file_chatter_v1_protocol, 7);
+	/*@__PURE__*/
+	messageDesc(file_chatter_v1_protocol, 7);
+
+/**
+ * Sent to announce a new leader after leader election
+ *
+ * @generated from message chatter.v1.NewLeaderMessage
+ */
+export type NewLeaderMessage = Message<"chatter.v1.NewLeaderMessage"> & {
+	/**
+	 * New host's nodeId (becomes the new roomId)
+	 *
+	 * @generated from field: string node_id = 1;
+	 */
+	nodeId: string;
+
+	/**
+	 * New host's nickname
+	 *
+	 * @generated from field: string nickname = 2;
+	 */
+	nickname: string;
+};
+
+/**
+ * Describes the message chatter.v1.NewLeaderMessage.
+ * Use `create(NewLeaderMessageSchema)` to create a new message.
+ */
+export const NewLeaderMessageSchema: GenMessage<NewLeaderMessage> =
+	/*@__PURE__*/
+	messageDesc(file_chatter_v1_protocol, 8);
 
 /**
  * Wrapper message that contains one of the protocol messages
@@ -216,60 +245,67 @@ export const NicknameMessageSchema: GenMessage<NicknameMessage> =
  * @generated from message chatter.v1.ProtocolMessage
  */
 export type ProtocolMessage = Message<"chatter.v1.ProtocolMessage"> & {
-  /**
-   * @generated from oneof chatter.v1.ProtocolMessage.payload
-   */
-  payload:
-    | {
-        /**
-         * @generated from field: chatter.v1.ChatMessage chat = 1;
-         */
-        value: ChatMessage;
-        case: "chat";
-      }
-    | {
-        /**
-         * @generated from field: chatter.v1.JoinMessage join = 2;
-         */
-        value: JoinMessage;
-        case: "join";
-      }
-    | {
-        /**
-         * @generated from field: chatter.v1.LeaveMessage leave = 3;
-         */
-        value: LeaveMessage;
-        case: "leave";
-      }
-    | {
-        /**
-         * @generated from field: chatter.v1.PeerListMessage peer_list = 4;
-         */
-        value: PeerListMessage;
-        case: "peerList";
-      }
-    | {
-        /**
-         * @generated from field: chatter.v1.SyncRequestMessage sync_request = 5;
-         */
-        value: SyncRequestMessage;
-        case: "syncRequest";
-      }
-    | {
-        /**
-         * @generated from field: chatter.v1.SyncDataMessage sync_data = 6;
-         */
-        value: SyncDataMessage;
-        case: "syncData";
-      }
-    | {
-        /**
-         * @generated from field: chatter.v1.NicknameMessage nickname = 7;
-         */
-        value: NicknameMessage;
-        case: "nickname";
-      }
-    | { case: undefined; value?: undefined };
+	/**
+	 * @generated from oneof chatter.v1.ProtocolMessage.payload
+	 */
+	payload:
+		| {
+				/**
+				 * @generated from field: chatter.v1.ChatMessage chat = 1;
+				 */
+				value: ChatMessage;
+				case: "chat";
+		  }
+		| {
+				/**
+				 * @generated from field: chatter.v1.JoinMessage join = 2;
+				 */
+				value: JoinMessage;
+				case: "join";
+		  }
+		| {
+				/**
+				 * @generated from field: chatter.v1.LeaveMessage leave = 3;
+				 */
+				value: LeaveMessage;
+				case: "leave";
+		  }
+		| {
+				/**
+				 * @generated from field: chatter.v1.PeerListMessage peer_list = 4;
+				 */
+				value: PeerListMessage;
+				case: "peerList";
+		  }
+		| {
+				/**
+				 * @generated from field: chatter.v1.SyncRequestMessage sync_request = 5;
+				 */
+				value: SyncRequestMessage;
+				case: "syncRequest";
+		  }
+		| {
+				/**
+				 * @generated from field: chatter.v1.SyncDataMessage sync_data = 6;
+				 */
+				value: SyncDataMessage;
+				case: "syncData";
+		  }
+		| {
+				/**
+				 * @generated from field: chatter.v1.NicknameMessage nickname = 7;
+				 */
+				value: NicknameMessage;
+				case: "nickname";
+		  }
+		| {
+				/**
+				 * @generated from field: chatter.v1.NewLeaderMessage new_leader = 8;
+				 */
+				value: NewLeaderMessage;
+				case: "newLeader";
+		  }
+		| { case: undefined; value?: undefined };
 };
 
 /**
@@ -277,5 +313,5 @@ export type ProtocolMessage = Message<"chatter.v1.ProtocolMessage"> & {
  * Use `create(ProtocolMessageSchema)` to create a new message.
  */
 export const ProtocolMessageSchema: GenMessage<ProtocolMessage> =
-  /*@__PURE__*/
-  messageDesc(file_chatter_v1_protocol, 8);
+	/*@__PURE__*/
+	messageDesc(file_chatter_v1_protocol, 9);

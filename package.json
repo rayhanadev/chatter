@@ -1,41 +1,41 @@
 {
-  "type": "module",
-  "name": "@rayhanadev/chatter",
-  "version": "1.1.0",
-  "description": "Peer-to-peer chat in your terminal",
-  "bin": {
-    "chatter": "./src/index.tsx"
-  },
-  "files": [
-    "src",
-    "!src/**/*.proto"
-  ],
-  "scripts": {
-    "start": "bun run src/index.tsx",
-    "dev": "bun --hot run src/index.tsx",
-    "build": "bun build --compile --minify --sourcemaps src/index.tsx --outfile dist/quichat",
-    "lint": "biome check . --write --unsafe",
-    "format": "biome format . --write",
-    "proto:generate": "buf generate",
-    "proto:lint": "buf lint"
-  },
-  "dependencies": {
-    "@bufbuild/protobuf": "^2.10.1",
-    "@opentui/core": "^0.1.53",
-    "@opentui/react": "^0.1.53",
-    "@rayhanadev/iroh": "^0.1.1",
-    "clipboardy": "^5.0.1",
-    "immer": "^11.0.1",
-    "jotai": "^2.15.1",
-    "jotai-immer": "^0.4.1",
-    "react": "^19.2.0"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^2.3.8",
-    "@bufbuild/buf": "^1.61.0",
-    "@bufbuild/protoc-gen-es": "^2.10.1",
-    "@types/bun": "latest",
-    "@types/react": "^19.2.7",
-    "typescript": "^5"
-  }
+	"type": "module",
+	"name": "@rayhanadev/chatter",
+	"version": "1.1.0",
+	"description": "Peer-to-peer chat in your terminal",
+	"bin": {
+		"chatter": "./src/index.tsx"
+	},
+	"files": [
+		"src",
+		"!src/**/*.proto"
+	],
+	"scripts": {
+		"start": "bun run src/index.tsx",
+		"dev": "bun --hot run src/index.tsx",
+		"build": "bun build --compile --minify --sourcemaps src/index.tsx --outfile dist/quichat",
+		"lint": "biome check . --write --unsafe",
+		"format": "biome format . --write",
+		"proto:generate": "buf generate",
+		"proto:lint": "buf lint"
+	},
+	"dependencies": {
+		"@bufbuild/protobuf": "^2.10.1",
+		"@opentui/core": "^0.1.53",
+		"@opentui/react": "^0.1.53",
+		"@rayhanadev/iroh": "^0.1.1",
+		"clipboardy": "^5.0.1",
+		"immer": "^11.0.1",
+		"jotai": "^2.15.1",
+		"jotai-immer": "^0.4.1",
+		"react": "^19.2.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.3.8",
+		"@bufbuild/buf": "^1.61.0",
+		"@bufbuild/protoc-gen-es": "^2.10.1",
+		"@types/bun": "latest",
+		"@types/react": "^19.2.7",
+		"typescript": "^5"
+	}
 }

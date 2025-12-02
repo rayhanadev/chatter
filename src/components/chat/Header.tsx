@@ -1,7 +1,7 @@
 import { useConnectionState } from "../../stores";
 
 export function Header() {
-	const { roomId, peerCount } = useConnectionState();
+	const { roomId, peerCount, isHost } = useConnectionState();
 
 	return (
 		<box
@@ -14,6 +14,7 @@ export function Header() {
 		>
 			<text fg="#ff69b4">
 				<b>Room ID:</b> {roomId ?? "unknown"}
+				{isHost && <span> (Host)</span>}
 			</text>
 			<text fg="#888888">|</text>
 			<text fg="#ff69b4">

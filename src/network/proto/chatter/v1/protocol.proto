@@ -48,6 +48,12 @@ message NicknameMessage {
   string nickname = 2;
 }
 
+// Sent to announce a new leader after leader election
+message NewLeaderMessage {
+  string node_id = 1;  // New host's nodeId (becomes the new roomId)
+  string nickname = 2; // New host's nickname
+}
+
 // Wrapper message that contains one of the protocol messages
 message ProtocolMessage {
   oneof payload {
@@ -58,5 +64,6 @@ message ProtocolMessage {
     SyncRequestMessage sync_request = 5;
     SyncDataMessage sync_data = 6;
     NicknameMessage nickname = 7;
+    NewLeaderMessage new_leader = 8;
   }
 }
