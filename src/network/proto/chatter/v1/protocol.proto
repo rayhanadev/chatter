@@ -1,0 +1,62 @@
+syntax = "proto3";
+
+package chatter.v1;
+
+// Peer information shared across the network
+message Peer {
+  string node_id = 1;
+  string nickname = 2;
+}
+
+// Chat message sent between peers
+message ChatMessage {
+  string id = 1;
+  string sender = 2;
+  string nickname = 3;
+  string text = 4;
+  int64 timestamp = 5;
+}
+
+// Sent when a peer joins the network
+message JoinMessage {
+  string node_id = 1;
+  string nickname = 2;
+}
+
+// Sent when a peer leaves the network
+message LeaveMessage {
+  string node_id = 1;
+}
+
+// Sent to share the current list of peers
+message PeerListMessage {
+  repeated Peer peers = 1;
+}
+
+// Sent to request synchronization data from a peer
+message SyncRequestMessage {}
+
+// Sent in response to a sync request with peer list and message history
+message SyncDataMessage {
+  repeated Peer peers = 1;
+  repeated ChatMessage messages = 2;
+}
+
+// Sent when a peer changes their nickname
+message NicknameMessage {
+  string node_id = 1;
+  string nickname = 2;
+}
+
+// Wrapper message that contains one of the protocol messages
+message ProtocolMessage {
+  oneof payload {
+    ChatMessage chat = 1;
+    JoinMessage join = 2;
+    LeaveMessage leave = 3;
+    PeerListMessage peer_list = 4;
+    SyncRequestMessage sync_request = 5;
+    SyncDataMessage sync_data = 6;
+    NicknameMessage nickname = 7;
+  }
+}

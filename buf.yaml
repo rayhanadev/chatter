@@ -1,0 +1,9 @@
+version: v2
+modules:
+  - path: src/network/proto
+lint:
+  use:
+    - STANDARD
+breaking:
+  use:
+    - FILE
