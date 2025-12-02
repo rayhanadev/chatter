@@ -2,6 +2,8 @@
 
 A decentralized peer-to-peer terminal chat application built with [iroh-ts](https://github.com/rayhanadev/iroh-ts).
 
+<img width="805" height="619" alt="image" src="https://github.com/user-attachments/assets/5a5055fb-fa7d-416f-9ccb-cfe1d026e725" />
+
 ## Features
 
 - **Decentralized** - Direct peer-to-peer connections via QUIC, no central server required
