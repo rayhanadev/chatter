@@ -12,12 +12,14 @@ A decentralized peer-to-peer terminal chat application built with [iroh-ts](http
 
 ## Usage
 
+Note: this application requires [Bun](https://bun.com) to be installed! You can find installation instructions [here](https://bun.com/docs/installation).
+
 ```bash
-$ npm install -g @rayhanadev/chatter
+$ bun install -g @rayhanadev/chatter
 $ chatter
 ```
 
-or you can run it directly with `npx @rayhanadev/chatter`!
+or you can run it directly with `bunx @rayhanadev/chatter`!
 
 ### Creating a Room
 
