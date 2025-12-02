@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@rayhanadev/chatter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Peer-to-peer chat in your terminal",
   "bin": {
     "chatter": "./src/index.tsx"
@@ -13,7 +13,7 @@
   "scripts": {
     "start": "bun run src/index.tsx",
     "dev": "bun --hot run src/index.tsx",
-    "build": "bun build --compile --minify --sourcemaps src/index.tsx --outfile dist/chatter",
+    "build": "bun build --compile --minify --sourcemaps src/index.tsx --outfile dist/quichat",
     "lint": "biome check . --write --unsafe",
     "format": "biome format . --write",
     "proto:generate": "buf generate",
