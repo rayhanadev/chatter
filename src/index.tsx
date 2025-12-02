@@ -12,11 +12,10 @@ const cli = sade("chatter");
 cli.version(version).describe(description);
 
 cli
-  .command("create <nickname>", "host a new room headlessly", {
-    default: false,
-  })
-  .action(async (nickname: string) => {
-    const manager = new PeerManager(nickname);
+  .command("host", "host a new room headlessly")
+  .option("nickname", "nickname to use", "host")
+  .action(async (options: { nickname: string }) => {
+    const manager = new PeerManager(options.nickname);
 
     const cleanup = async () => {
       console.log("\nShutting down...");
@@ -36,9 +35,7 @@ cli
             if (event.message.payload.case === "chat") {
               const chatMessage = event.message.payload.value;
               manager.addToHistory(chatMessage);
-              console.log(
-                `[${chatMessage.nickname}]: ${chatMessage.text}`,
-              );
+              console.log(`[${chatMessage.nickname}]: ${chatMessage.text}`);
             }
             break;
           case "peer-joined":
