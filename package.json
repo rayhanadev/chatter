@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@rayhanadev/chatter",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Peer-to-peer chat in your terminal",
   "bin": {
     "chatter": "./src/index.tsx"
